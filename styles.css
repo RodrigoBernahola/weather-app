@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(99, 113, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outerDiv {
+    display: flex;
+    background-color: rgb(204, 146, 146);
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actualDate {
+    display: flex;
+    flex-direction: column;
+}
+
+.actualDate > div {
+    display: flex;
+}
+
+.actualDate div {
+    margin: 2px;
+    padding: 3px;
+}
+
+.sevenDaysDiv > div{    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    padding: 2px;
+    margin: 6px;
+}
+
+.formContainer {
+    padding: 20px;
+}
